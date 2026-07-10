@@ -1,20 +1,25 @@
 import './App.css'
+import './Animation.css'
+import Header from './components/Sections/Header.tsx'
+import Home from './components/Sections/Home.tsx'
+import About from './components/Sections/About.tsx'
+import SideProject from './components/Sections/SideProject.tsx'
+import Contact from './components/Sections/Contact.tsx'
+import TeamProject from './components/Sections/TeamProject.tsx'
 
 function App() {
-  
-  return(
-    <>
-    <header>
-      포트폴리오 사이트입니다.
-    </header>
-    <nav>
-      네비게이션
-    </nav>
+  return (
+    <div className="portfolio">
+      <Header />
 
-    <section>
-      섹션입니다.
-    </section>
-  </>
+      <main>
+        <Home/>
+        <About/>
+        <TeamProject/>
+        <SideProject/>
+        <Contact/>
+      </main>
+    </div>
   )
 }
 
