@@ -1,0 +1,12 @@
+html{
+  padding : 10px;
+}
+
+header{
+  position : fixed;
+  top : 0;
+}
+
+nav{
+  position : fixed;
+}
