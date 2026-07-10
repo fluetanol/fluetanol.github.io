@@ -1,4 +1,6 @@
 
+import './Header.css'
+
 const navItems = [
   { label: 'Home', target: 'home' },
   { label: 'About', target: 'about' },

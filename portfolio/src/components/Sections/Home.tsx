@@ -1,4 +1,6 @@
 
+import './Home.css'
+
   const moveToSection = (target: string) => {
     document.getElementById(target)?.scrollIntoView({
       behavior: 'smooth',

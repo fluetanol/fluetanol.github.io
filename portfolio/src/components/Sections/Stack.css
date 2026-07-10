@@ -1,0 +1,8 @@
+.stack-section {
+  background: #1c211e;
+  color: #f4f5f1;
+}
+
+.stack-section > p {
+  color: #adb4af;
+}

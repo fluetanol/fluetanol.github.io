@@ -1,10 +1,10 @@
 
-
+import './Stack.css'
 
 export default function Stack(){
 
     return(
-        <section className="content-section section" id="stack">
+        <section className="content-section stack-section section" id="stack">
           <div className="section-heading">
             <span>03</span>
             <h2>Tech Stack</h2>
@@ -13,3 +13,4 @@ export default function Stack(){
         </section>
     )
 }
+import './Stack.css'

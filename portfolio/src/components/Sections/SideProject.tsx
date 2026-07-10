@@ -1,4 +1,5 @@
 import ProjectCarousel, { type Project } from '../ProjectCarousel'
+import './SideProject.css'
 
 const sideProjects: Project[] = [
   {

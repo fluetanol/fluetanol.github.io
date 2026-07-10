@@ -1,5 +1,4 @@
 import './App.css'
-import './Animation.css'
 import Header from './components/Sections/Header.tsx'
 import Home from './components/Sections/Home.tsx'
 import About from './components/Sections/About.tsx'
