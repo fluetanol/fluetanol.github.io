@@ -1,4 +1,5 @@
 import { useRef, useState, type PointerEvent } from 'react'
+import './ProjectCarousel.css'
 
 export type Project = {
   title: string

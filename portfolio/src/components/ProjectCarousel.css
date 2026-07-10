@@ -1,0 +1,166 @@
+.project-section {
+  min-height: auto;
+  padding-right: 0;
+  padding-top: 140px;
+  padding-bottom: 160px;
+  background: var(--color-background);
+  color: var(--color-text);
+}
+
+.project-section .section-heading,
+.project-section .section-intro { margin-right: 8vw; }
+
+.project-section .section-intro {
+  max-width: none;
+  margin-top: 24px;
+  margin-left: 54px;
+  color: var(--color-text-muted);
+}
+
+.project-carousel { margin-top: 64px; }
+
+.carousel-toolbar {
+  padding-right: 8vw;
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carousel-toolbar p {
+  margin: 0;
+  color: var(--color-text-subtle);
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 13px;
+}
+
+.carousel-toolbar p span {
+  margin-right: 10px;
+  color: var(--color-accent);
+  font-family: 'Manrope', sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+
+.carousel-controls { display: flex; gap: 8px; }
+
+.carousel-controls button {
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--color-border-control);
+  border-radius: 50%;
+  color: var(--color-text-strong);
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.carousel-controls button:hover,
+.carousel-controls button:focus-visible {
+  border-color: var(--color-accent);
+  color: var(--color-white);
+  background: var(--color-accent);
+}
+
+.project-track {
+  display: flex;
+  gap: 28px;
+  padding-right: 8vw;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  cursor: grab;
+  touch-action: pan-y;
+  user-select: none;
+}
+
+.project-track::-webkit-scrollbar { display: none; }
+.project-track.is-dragging { cursor: grabbing; scroll-snap-type: none; }
+
+.project-card {
+  flex: 0 0 920px;
+  min-height: 470px;
+  display: grid;
+  grid-template-columns: 52% 48%;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: var(--color-surface);
+  box-shadow: 0 20px 60px var(--color-card-shadow);
+  scroll-snap-align: start;
+}
+
+.project-thumbnail {
+  position: relative;
+  min-height: 470px;
+  padding: 36px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--color-white);
+}
+
+.project-thumbnail::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, transparent 35%, var(--color-white-soft));
+}
+
+.project-thumbnail__category { z-index: 1; font-size: 11px; font-weight: 700; letter-spacing: .18em; }
+.project-thumbnail strong { z-index: 1; align-self: flex-end; font-size: 94px; line-height: .8; letter-spacing: -.08em; opacity: .18; }
+
+.project-thumbnail__shape {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 210px;
+  height: 210px;
+  border: 1px solid var(--color-white-border);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.project-thumbnail__shape::before,
+.project-thumbnail__shape::after { content: ''; position: absolute; border: 1px solid var(--color-white-line); }
+.project-thumbnail__shape::before { inset: 28px; transform: rotate(45deg); }
+.project-thumbnail__shape::after { top: 50%; left: -80px; width: 370px; height: 1px; border-width: 1px 0 0; transform: rotate(-28deg); }
+
+.project-info { padding: 48px 46px; display: flex; flex-direction: column; }
+.project-index { color: var(--color-accent); font-size: 11px; font-weight: 800; letter-spacing: .14em; }
+
+.project-info h3 {
+  margin: 18px 0 32px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -.035em;
+  word-break: keep-all;
+}
+
+.project-meta {
+  margin: 0;
+  padding: 22px 0;
+  display: flex;
+  gap: 48px;
+  border-top: 1px solid var(--color-border-light);
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.project-meta div { display: flex; gap: 14px; }
+.project-meta dt { color: var(--color-text-faint); font-size: 13px; }
+.project-meta dd { margin: 0; color: var(--color-meta-value); font-size: 14px; font-weight: 600; }
+
+.project-summary {
+  margin: auto 0 0;
+  color: var(--color-text-body);
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  word-break: keep-all;
+}

@@ -1,8 +1,8 @@
 .stack-section {
-  background: #1c211e;
-  color: #f4f5f1;
+  background: var(--color-dark-section);
+  color: var(--color-background);
 }
 
 .stack-section > p {
-  color: #adb4af;
+  color: var(--color-dark-muted);
 }

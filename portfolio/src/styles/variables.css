@@ -1,0 +1,39 @@
+:root {
+  --color-background: #f4f5f1;
+  --color-surface: #fafbf8;
+  --color-text: #171a18;
+  --color-text-strong: #313632;
+  --color-text-body: #606762;
+  --color-text-muted: #6d746f;
+  --color-text-subtle: #777e79;
+  --color-text-faint: #8a908c;
+  --color-hero-text: #5c635f;
+  --color-hero-number: #8b918d;
+  --color-scroll-text: #717873;
+  --color-meta-value: #333834;
+  --color-accent: #2c8b57;
+  --color-border: #d8dbd6;
+  --color-border-light: #e2e4e0;
+  --color-border-control: #cdd1cc;
+  --color-line: #c8cbc8;
+  --color-white: #ffffff;
+  --color-dark-section: #1c211e;
+  --color-dark-muted: #adb4af;
+
+  --color-thumbnail-forest: #234f3a;
+  --color-thumbnail-sage: #738b72;
+  --color-thumbnail-night: #26312c;
+  --color-thumbnail-paper: #8c806a;
+  --color-thumbnail-mint: #547c70;
+  --color-thumbnail-blue: #536a75;
+
+  --color-header-background: rgba(244, 245, 241, .88);
+  --color-header-border: rgba(23, 26, 24, .1);
+  --color-accent-soft: rgba(44, 139, 87, .12);
+  --color-accent-border: rgba(44, 139, 87, .22);
+  --color-accent-line: rgba(44, 139, 87, .28);
+  --color-card-shadow: rgba(31, 38, 33, .07);
+  --color-white-soft: rgba(255, 255, 255, .1);
+  --color-white-line: rgba(255, 255, 255, .3);
+  --color-white-border: rgba(255, 255, 255, .48);
+}
