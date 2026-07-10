@@ -6,6 +6,7 @@ import About from './components/Sections/About.tsx'
 import SideProject from './components/Sections/SideProject.tsx'
 import Contact from './components/Sections/Contact.tsx'
 import TeamProject from './components/Sections/TeamProject.tsx'
+import Stack from './components/Sections/Stack.tsx'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <main>
         <Home/>
         <About/>
+        <Stack/>
         <TeamProject/>
         <SideProject/>
         <Contact/>
