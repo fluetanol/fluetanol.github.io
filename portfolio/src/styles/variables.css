@@ -19,6 +19,8 @@
   --color-white: #ffffff;
   --color-dark-section: #1c211e;
   --color-dark-muted: #adb4af;
+  --color-stack-description: #bbc1bd;
+  --color-stack-tag-text: #dce1dd;
 
   --color-thumbnail-forest: #234f3a;
   --color-thumbnail-sage: #738b72;
@@ -36,4 +38,10 @@
   --color-white-soft: rgba(255, 255, 255, .1);
   --color-white-line: rgba(255, 255, 255, .3);
   --color-white-border: rgba(255, 255, 255, .48);
+  --color-stack-card: rgba(255, 255, 255, .025);
+  --color-stack-card-hover: rgba(255, 255, 255, .05);
+  --color-stack-border: rgba(255, 255, 255, .12);
+  --color-stack-divider: rgba(255, 255, 255, .1);
+  --color-stack-tag: rgba(255, 255, 255, .05);
+  --color-stack-tag-border: rgba(255, 255, 255, .09);
 }
